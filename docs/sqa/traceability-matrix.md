@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-09 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | pending |
+| 2026-11-09 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [109e51b] |
 
 ---
 
@@ -72,3 +72,4 @@ updated whenever an artifact instance is created or reviewed.
 [RC-008]: ./reviews/rc-008-dictionary.md
 [RC-009]: ./reviews/rc-009-governance.md
 [RC-010]: ./reviews/rc-010-code-mil-001.md
+[109e51b]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/058-tindog/commit/109e51b66de566b81925c85b7a93dcf006cf5b95
