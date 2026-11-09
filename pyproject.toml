@@ -14,6 +14,9 @@ authors = [{ name = "Jens Tirsvad Nielsen" }]
 keywords = ["bootstrap", "udemy", "100-days-of-code", "tindog"]
 dependencies = []
 
+[project.scripts]
+tindog = "tindog.presentation.cli:main"
+
 [project.optional-dependencies]
 dev = ["pytest>=8"]
 
