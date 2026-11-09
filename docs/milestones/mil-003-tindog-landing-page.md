@@ -11,7 +11,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-09 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [109e51b] |
+| 2026-11-09 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [109e51b] |
+| 2026-11-09 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added the notes on the Udemy download (task 1) | [d2c6ac0] |
 
 ---
 
@@ -69,8 +70,18 @@ The TinDog landing page under `src/tindog/site/` with its own images, listed in 
 | 4 | Register the page in the catalogue | Add the TinDog lecture step to the lesson catalogue in `constants.py` so the index and the server list it. | No | |
 | 5 | Test the TinDog page | Write `pytest` tests for the status, the sections, the grid classes, the three pricing plans and the absence of Udemy files. | No | |
 
+## Notes
+
+Result of task 1, the Udemy download (16 files, 1.4 MB, read as data, nothing run):
+
+- The zip holds a start page with five empty sections, two empty stylesheets, a solution page, a README with the course text and four Bootstrap Icons SVGs, five images (phone, dog photo, four press logos) and five goal screenshots.
+- The lecture description and the zip agree: sections title, features, testimonial, pricing and footer; the goal screenshots add a press row and a call to action.
+- The text and the Bootstrap Icons paths (MIT licence) from the README are reused; the phone, avatar and press images are redrawn as own SVG files, because the originals are third-party photographs and logos.
+- Nothing from the zip is committed; a test checks that.
+
 ---
 
 [BC-001]: ../business-case.md
 [MIL-002]: ./mil-002-bootstrap-lectures-1-2.md
 [109e51b]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/058-tindog/commit/109e51b66de566b81925c85b7a93dcf006cf5b95
+[d2c6ac0]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/058-tindog/commit/d2c6ac0896fb521396305589eee8877213877438
