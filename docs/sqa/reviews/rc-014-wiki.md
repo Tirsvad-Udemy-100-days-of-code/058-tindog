@@ -10,6 +10,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-11-09 | Proposed | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [e5f840f] |
+| 2026-11-09 | Proposed | Jens Tirsvad Nielsen | AI as stand-in for S01 | Closed criterion 14 after the check of the published wiki; verdict Go | pending |
 
 ---
 
@@ -39,19 +40,19 @@
 | 11 | Every page starts with the language line, with the current language in bold and a link to the same page in each other language | Pass | Every page starts with the language line, current language in bold. |
 | 12 | A page in a language other than English is named `<Page>-<code>.md`, with a BCP 47 code; English has no suffix | Pass | -da and -ms suffixes, English has none. |
 | 13 | Code blocks, commands, file names and IDs stay in English in every language | Pass | Commands, file names, class names and addresses are English in all languages. |
-| 14 | The sidebar, every page and every link were checked on the published wiki after the change, not only in the repository | Pending | The wiki is published by the host workflow only after the merge to main; the check on the published wiki is done after the merge (action item). |
+| 14 | The sidebar, every page and every link were checked on the published wiki after the change, not only in the repository | Pass | Checked on the published wiki on 2026-11-09 after the merge of PR 27: 15 pages and 15 internal links answer 200, the 3 screenshots load, and the sidebar with the Languages section is shown (checked by S01 stand-in). |
 | 15 | A change to the layout rules (sections, order, naming) is made in the generator or template and in this checklist's source rules together | N-A | Optional: no layout rule changed. |
 | 16 | The wiki folder (`docs/wiki/`) is flat: every page, `Home.md` and `_Sidebar.md` included, is directly in it, and languages are told apart by file name, never by a subfolder | Pass | All 16 files are directly in docs/wiki/. |
 
 ## Overall Verdict
 
-Go-with-conditions — All checked criteria pass; criterion 14 can only be checked on the published wiki, so it stays Pending and the verdict is Go-with-conditions.
+Go — All criteria pass. Criterion 14 was checked on the published wiki after the merge, so the earlier Go-with-conditions is closed.
 
 ## Action Items
 
 | Action | Owner | Due |
 | --- | --- | --- |
-| After the merge, open the published wiki, check the sidebar and every page and link, then set criterion 14 to Pass and the verdict to Go. | S01 | 2026-11-13 |
+| Done: published wiki checked, criterion 14 set to Pass and the verdict to Go. | S01 | 2026-11-09 |
 
 ---
 
