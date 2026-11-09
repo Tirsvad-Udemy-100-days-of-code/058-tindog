@@ -28,7 +28,7 @@ updated whenever an artifact instance is created or reviewed.
 | [PP-001] | PP | en | it | [BC-001], [SA-001] | [MIL-001], [MIL-002], [MIL-003], [MIL-004] | [RC-003] |
 | [MIL-001] | MIL | en | it | [BC-001], [PP-001] | [MIL-002] | [RC-004], [RC-010] |
 | [MIL-002] | MIL | en | it | [BC-001], [MIL-001] | [MIL-003] | [RC-005], [RC-011] |
-| [MIL-003] | MIL | en | it | [BC-001], [MIL-002] | [MIL-004] | [RC-006] |
+| [MIL-003] | MIL | en | it | [BC-001], [MIL-002] | [MIL-004] | [RC-006], [RC-012], [RC-013] |
 | [MIL-004] | MIL | en | it | [BC-001], [MIL-003] | - | [RC-007] |
 | [DICT-001] | DICT | en | it | [BC-001], [SA-001] | - | [RC-008] |
 | [GOV-001] | GOV | en | it | [BC-001], [SA-001] | - | [RC-009] |
@@ -74,3 +74,5 @@ updated whenever an artifact instance is created or reviewed.
 [RC-010]: ./reviews/rc-010-code-mil-001.md
 [109e51b]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/058-tindog/commit/109e51b66de566b81925c85b7a93dcf006cf5b95
 [RC-011]: ./reviews/rc-011-code-mil-002.md
+[RC-012]: ./reviews/rc-012-mil-003-delta.md
+[RC-013]: ./reviews/rc-013-code-mil-003.md

@@ -45,6 +45,7 @@ BOOTSTRAP_JS_INTEGRITY = "sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9Gk
 LESSON_DATA: tuple[tuple[int, str, str, str], ...] = (
     (1, "bootstrap-introduction", "Bootstrap introduction", "lecture-1-bootstrap-introduction"),
     (2, "bootstrap-components", "Bootstrap components: Move It", "lecture-2-bootstrap-components"),
+    (3, "tindog-landing-page", "The TinDog landing page", "lecture-3-tindog"),
 )
 
 ## @brief Name of the page file inside each lesson folder.

@@ -52,6 +52,17 @@ def test_each_lesson_page_is_served(base_url: str, lesson: Lesson) -> None:
     assert b"<html" in body.lower()
 
 
+@pytest.mark.parametrize(
+    "asset",
+    ["index.html", "css/styles.css", "images/phone.svg"],
+)
+def test_tindog_lesson_files_are_served(base_url: str, asset: str) -> None:
+    folder = next(row[3] for row in constants.LESSON_DATA if row[1] == "tindog-landing-page")
+    status, body = fetch(f"{base_url}/{folder}/{asset}")
+    assert status == 200
+    assert body
+
+
 def test_missing_page_returns_404(base_url: str) -> None:
     status, _ = fetch(base_url + "/missing.html")
     assert status == 404
