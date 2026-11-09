@@ -10,7 +10,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-11-09 | Proposed | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [e5f840f] |
-| 2026-11-09 | Proposed | Jens Tirsvad Nielsen | AI as stand-in for S01 | Closed criterion 14 after the check of the published wiki; verdict Go | pending |
+| 2026-11-09 | Proposed | Jens Tirsvad Nielsen | AI as stand-in for S01 | Closed criterion 14 after the check of the published wiki; verdict Go | [fde8103] |
 
 ---
 
@@ -59,3 +59,4 @@ Go — All criteria pass. Criterion 14 was checked on the published wiki after t
 [MIL-004]: ../../milestones/mil-004-readme-screenshots-wiki.md
 [QC-WIKI-001]: ../../../framework/qc/artifacts/qc-wiki.md
 [e5f840f]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/058-tindog/commit/e5f840fed7c167422e6b3df444d2c34fb6e34498
+[fde8103]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/058-tindog/commit/fde8103d037464767991dd3cad545f09016c92b7
