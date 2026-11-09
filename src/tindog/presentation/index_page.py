@@ -12,13 +12,13 @@ from tindog.constants import (
 from tindog.domain.lesson import Lesson
 
 
+def _link_item(lesson: Lesson) -> str:
+    return f'      <a class="list-group-item list-group-item-action" href="{escape(lesson.url_path)}">Lecture step {lesson.number}: {escape(lesson.title)}</a>'
+
+
 def render_index(lessons: tuple[Lesson, ...]) -> str:
     """@brief Return the HTML of the index page for the given lessons."""
-    items = "\n".join(
-        f'      <a class="list-group-item list-group-item-action" href="{escape(lesson.url_path)}">'
-        f"Lecture step {lesson.number}: {escape(lesson.title)}</a>"
-        for lesson in lessons
-    )
+    items = "\n".join(_link_item(lesson) for lesson in lessons)
     return f"""<!doctype html>
 <html lang="en">
 <head>

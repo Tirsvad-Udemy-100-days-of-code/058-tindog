@@ -29,7 +29,7 @@ updated whenever an artifact instance is created or reviewed.
 | [MIL-001] | MIL | en | it | [BC-001], [PP-001] | [MIL-002] | [RC-004], [RC-010] |
 | [MIL-002] | MIL | en | it | [BC-001], [MIL-001] | [MIL-003] | [RC-005], [RC-011] |
 | [MIL-003] | MIL | en | it | [BC-001], [MIL-002] | [MIL-004] | [RC-006], [RC-012], [RC-013] |
-| [MIL-004] | MIL | en | it | [BC-001], [MIL-003] | - | [RC-007] |
+| [MIL-004] | MIL | en | it | [BC-001], [MIL-003] | - | [RC-007], [RC-014], [RC-015] |
 | [DICT-001] | DICT | en | it | [BC-001], [SA-001] | - | [RC-008] |
 | [GOV-001] | GOV | en | it | [BC-001], [SA-001] | - | [RC-009] |
 
@@ -76,3 +76,5 @@ updated whenever an artifact instance is created or reviewed.
 [RC-011]: ./reviews/rc-011-code-mil-002.md
 [RC-012]: ./reviews/rc-012-mil-003-delta.md
 [RC-013]: ./reviews/rc-013-code-mil-003.md
+[RC-014]: ./reviews/rc-014-wiki.md
+[RC-015]: ./reviews/rc-015-code-mil-004.md
