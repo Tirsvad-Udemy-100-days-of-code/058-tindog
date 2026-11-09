@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-09 | Proposed | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | pending |
+| 2026-11-09 | Proposed | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [d2c6ac0] |
 
 ---
 
@@ -63,3 +63,4 @@ Go — Every Mandatory criterion still passes; the new Notes section is in Engli
 [MIL-003]: ../../milestones/mil-003-tindog-landing-page.md
 [QC-MIL-001]: ../../../framework/qc/artifacts/qc-milestones-gateways.md
 [RC-006]: ./rc-006-mil-003.md
+[d2c6ac0]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/058-tindog/commit/d2c6ac0896fb521396305589eee8877213877438
